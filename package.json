@@ -1,0 +1,20 @@
+{
+  "name": "ainda-nao-sei-q-nome-dar",
+  "version": "1.0.0",
+  "description": "Em tese é pra ser backend de alguma coisa",
+  "main": "src/index.mjs",
+  "repository": "https://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@github.com/Chipskein/ainda-nao-sei-q-nome-dar.git",
+  "author": "Chipskein",
+  "license": "BSD",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev":"nodemon ./src/index.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "mongodb": "^4.9.1",
+    "nodemon": "^2.0.19"
+  }
+}
