@@ -1,9 +1,9 @@
 {
-  "name": "ainda-nao-sei-q-nome-dar",
+  "name": "node-mongodb-weather-api",
   "version": "1.0.0",
-  "description": "Em tese é pra ser backend de alguma coisa",
+  "description": "",
   "main": "src/index.mjs",
-  "repository": "https://github.com/Chipskein/ainda-nao-sei-q-nome-dar.git",
+  "repository": "https://github.com/Chipskein/node-mongodb-weather-api.git",
   "author": "Chipskein",
   "license": "BSD",
   "private": true,
