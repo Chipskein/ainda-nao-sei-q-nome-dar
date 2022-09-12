@@ -6,6 +6,6 @@ export class Database{
     collections=["weathers"];
     constructor(CONNECTION_STR=process.env.MONGO_CONNECTION){
         this.CONNECTION_STR=CONNECTION_STR;
-        this.client=MongoClient(CONNECTION_STR);
+        this.client=new MongoClient(CONNECTION_STR);
     }
 }

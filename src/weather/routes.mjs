@@ -1,10 +1,7 @@
 import  { Router } from  "express";
+import { CreateWeather } from "./controller.mjs";
 let RouterWeather=Router()
-RouterWeather.get('/',(req,res)=>{
-    return res.status(200).json({
-        msg:"testando"
-    })
-});
+RouterWeather.post('/',CreateWeather);
 export default RouterWeather
 
 
